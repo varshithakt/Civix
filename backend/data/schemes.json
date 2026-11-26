@@ -1,0 +1,198 @@
+[
+  {
+    "id": "SCH001",
+    "name": "Post-Matric Scholarship for Higher Education",
+    "category": "Education",
+    "description": "Financial assistance provided to students belonging to economically weaker sections pursuing post-secondary or undergraduate technical and general higher education courses across India.",
+    "simplified_description": "You can get financial support for your college tuition if you are an undergraduate student with family income under ₹2.5 lakh.",
+    "eligibility": {
+      "min_age": 16,
+      "max_age": 28,
+      "income_limit": 250000,
+      "education": ["undergraduate", "engineering", "diploma", "higher secondary"],
+      "occupation": ["student"],
+      "states": ["All"],
+      "categories": ["OBC", "SC", "ST", "EWS", "General"],
+      "gender": "All"
+    },
+    "benefits": "Full coverage of maintenance allowance and non-refundable tuition fees up to ₹50,000 annually.",
+    "required_documents": [
+      {"name": "Income Certificate", "code": "income_cert"},
+      {"name": "College ID / Enrollment Proof", "code": "college_id"},
+      {"name": "Marks Card / Academic Transcript", "code": "marks_card"},
+      {"name": "Aadhaar Card", "code": "identity_doc"}
+    ],
+    "source_url": "https://scholarships.gov.in"
+  },
+  {
+    "id": "SCH002",
+    "name": "Karnataka State Post-Matric Merit Scholarship",
+    "category": "Education",
+    "description": "State-specific merit-cum-means scholarship for meritorious students pursuing engineering, medical, or degree courses in recognized institutions within Karnataka.",
+    "simplified_description": "If you live in Karnataka, study engineering or degree courses, and your family earns less than ₹2.0 lakh, you get a yearly stipend.",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 26,
+      "income_limit": 200000,
+      "education": ["engineering", "degree", "undergraduate", "postgraduate"],
+      "occupation": ["student"],
+      "states": ["Karnataka"],
+      "categories": ["General", "OBC", "SC", "ST", "Minority"],
+      "gender": "All"
+    },
+    "benefits": "Stipend of ₹25,000 per year plus fee reimbursement.",
+    "required_documents": [
+      {"name": "Income Certificate", "code": "income_cert"},
+      {"name": "Karnataka Domicile / Residence Certificate", "code": "residence_cert"},
+      {"name": "College ID", "code": "college_id"},
+      {"name": "SSLC / Marks Card", "code": "marks_card"}
+    ],
+    "source_url": "https://ssp.postmatric.karnataka.gov.in"
+  },
+  {
+    "id": "SCH003",
+    "name": "PM Kisan Samman Nidhi Yojana",
+    "category": "Agriculture",
+    "description": "Central sector scheme providing income support to all landholding farmer families across the country to enable them to procure agricultural inputs.",
+    "simplified_description": "Land-owning farmers get ₹6,000 every year directly in their bank accounts in three equal installments.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 75,
+      "income_limit": 300000,
+      "education": ["All"],
+      "occupation": ["farmer", "agriculture"],
+      "states": ["All"],
+      "categories": ["All"],
+      "gender": "All"
+    },
+    "benefits": "Direct bank transfer of ₹6,000 per year in 3 tranches of ₹2,000.",
+    "required_documents": [
+      {"name": "Landholding / Ownership Document (RTC/Pahani)", "code": "land_record"},
+      {"name": "Aadhaar Card", "code": "identity_doc"},
+      {"name": "Bank Passbook", "code": "bank_passbook"}
+    ],
+    "source_url": "https://pmkisan.gov.in"
+  },
+  {
+    "id": "SCH004",
+    "name": "Pradhan Mantri Awas Yojana (Urban / Gramin)",
+    "category": "Housing",
+    "description": "Housing scheme aimed at providing pucca houses with basic amenities to homeless families and households living in kutcha or dilapidated houses.",
+    "simplified_description": "Get financial help to build or buy a home if your household income is under ₹3.0 lakh and you do not own a pucca house.",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": 70,
+      "income_limit": 300000,
+      "education": ["All"],
+      "occupation": ["All"],
+      "states": ["All"],
+      "categories": ["All"],
+      "gender": "All"
+    },
+    "benefits": "Interest subsidy of up to ₹2.67 lakh on home loans.",
+    "required_documents": [
+      {"name": "Income Certificate", "code": "income_cert"},
+      {"name": "Residence Certificate", "code": "residence_cert"},
+      {"name": "Aadhaar Card", "code": "identity_doc"},
+      {"name": "Bank Account Details", "code": "bank_passbook"}
+    ],
+    "source_url": "https://pmaymis.gov.in"
+  },
+  {
+    "id": "SCH005",
+    "name": "Deendayal Disability Rehabilitation Scheme (DDRS)",
+    "category": "Disability",
+    "description": "Financial assistance to voluntary organizations and individuals with benchmark disabilities for education, vocational training, and assistive equipment.",
+    "simplified_description": "Support for persons with disabilities (40%+ benchmark) for education, skill training, and equipment aid.",
+    "eligibility": {
+      "min_age": 5,
+      "max_age": 60,
+      "income_limit": 350000,
+      "education": ["All"],
+      "occupation": ["All"],
+      "states": ["All"],
+      "categories": ["All"],
+      "gender": "All",
+      "min_disability_pct": 40
+    },
+    "benefits": "Free assistive appliances, vocational training stipend, and educational grants.",
+    "required_documents": [
+      {"name": "Disability Certificate (UDID Card)", "code": "disability_cert"},
+      {"name": "Income Certificate", "code": "income_cert"},
+      {"name": "Aadhaar Card", "code": "identity_doc"}
+    ],
+    "source_url": "https://disabilityaffairs.gov.in"
+  },
+  {
+    "id": "SCH006",
+    "name": "Pradhan Mantri Mudra Yojana (Shishu & Kishor Loan)",
+    "category": "Business",
+    "description": "Provides collateral-free micro-loans to non-corporate, non-farm small/micro enterprises for setting up small businesses or purchasing equipment.",
+    "simplified_description": "Get collateral-free loans up to ₹5 lakh to start or expand a small business, shop, or service enterprise.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "income_limit": 500000,
+      "education": ["All"],
+      "occupation": ["entrepreneur", "self-employed", "artisan", "business"],
+      "states": ["All"],
+      "categories": ["All"],
+      "gender": "All"
+    },
+    "benefits": "Collateral-free micro loans from ₹50,000 up to ₹5,000,000 at affordable interest rates.",
+    "required_documents": [
+      {"name": "Identity Document (Aadhaar/PAN)", "code": "identity_doc"},
+      {"name": "Proof of Business / Project Proposal", "code": "business_proof"},
+      {"name": "Residence Certificate", "code": "residence_cert"}
+    ],
+    "source_url": "https://www.mudra.org.in"
+  },
+  {
+    "id": "SCH007",
+    "name": "Karnataka Gruha Lakshmi Scheme",
+    "category": "Women Welfare",
+    "description": "Financial assistance program for female heads of households in Karnataka providing monthly financial aid to empower women.",
+    "simplified_description": "Women who are designated heads of their households in Karnataka get ₹2,000 every month directly deposited into their bank accounts.",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 80,
+      "income_limit": 200000,
+      "education": ["All"],
+      "occupation": ["All"],
+      "states": ["Karnataka"],
+      "categories": ["All"],
+      "gender": "Female"
+    },
+    "benefits": "Monthly financial aid of ₹2,000 transferred via Direct Benefit Transfer.",
+    "required_documents": [
+      {"name": "Karnataka Residence Certificate / Ration Card", "code": "residence_cert"},
+      {"name": "Aadhaar Card", "code": "identity_doc"},
+      {"name": "Bank Passbook", "code": "bank_passbook"}
+    ],
+    "source_url": "https://sevasindhu.karnataka.gov.in"
+  },
+  {
+    "id": "SCH008",
+    "name": "National Means-cum-Merit Scholarship (NMMS)",
+    "category": "Education",
+    "description": "Central scheme awarded to meritorious students of economically weaker sections to arrest drop-outs at Class 8 and encourage higher secondary studies.",
+    "simplified_description": "School students in Class 9 to 12 receive ₹12,000 per year if family income is below ₹3.5 lakh and they pass the selection test.",
+    "eligibility": {
+      "min_age": 13,
+      "max_age": 18,
+      "income_limit": 350000,
+      "education": ["school", "secondary"],
+      "occupation": ["student"],
+      "states": ["All"],
+      "categories": ["All"],
+      "gender": "All"
+    },
+    "benefits": "₹12,000 per annum (₹1,000 per month) for classes 9 through 12.",
+    "required_documents": [
+      {"name": "Income Certificate", "code": "income_cert"},
+      {"name": "Class 7 / 8 Marks Card", "code": "marks_card"},
+      {"name": "Caste Certificate (if applicable)", "code": "caste_cert"}
+    ],
+    "source_url": "https://scholarships.gov.in"
+  }
+]
